@@ -6,7 +6,7 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import Toast from 'react-native-toast-message';
 import { AuthProvider } from './src/contexts/AuthContext';
 import { ErrorBoundary } from './src/components/ErrorBoundary';
-import { RootNavigator } from './src/app/RootNavigator';
+import { RootNavigator } from './src/navigation/RootNavigator';
 
 // Keep splash screen visible while we load fonts/assets
 SplashScreen.preventAutoHideAsync();

@@ -36,12 +36,7 @@
           "launchMode": "most-recent"
         }
       ],
-      [
-        "react-native-vision-camera",
-        {
-          "cameraPermissionText": "Precision POS needs camera access to scan product barcodes."
-        }
-      ]
+      "expo-splash-screen"
     ],
     "web": {
       "favicon": "./assets/favicon.png"
